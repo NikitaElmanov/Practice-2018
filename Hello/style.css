@@ -1,938 +1,982 @@
-////////////////////////////////////////////////////////general part
-body {font-family: Calibri;}
-
+body {
+	padding: 0;
+	margin: 0;
+}
+//////////////////////////// basic settings
 .main {
 	position: relative;
-	background: #EAEDF1;
-	width: 600px;
-	height: 700px;
 }
 
-.main > div {
-	position: absolute;
-}
-
-.face,
-.icons,
-.direct,
-.secret,
-.cortix,
-.ademe,
-.impec {background: white;}
-
-.yelp,
-.ecole,
-.qoqa, 
-.cefire {background: #DAE1E9;}
+.main > div {position: absolute;}
 
 .face {
-	left: 35px;
-	top: 35px;
-	width: 185px;
-	height: 110px;
-}
-
-.direct {
-	right: 35px;
-	top: 35px;
-	width: 310px;
-	height: 110px;
-}
-
-.secret {
-	left: 35px;
-	width: 260px;
-	height: 130px;
-	top: 160px;
-}
-
-.cortix {
-	left: 35px;
-	width: 260px;
-	height: 130px;
-	top: 305px;
-}
-
-.ademe {
-	left: 35px;
-	top: 450px;
-	width: 260px;
-	height: 65px;
-}
-
-.impec {
-	left: 35px;
-	top: 530px;
-	width: 260px;
-	height: 65px;
-}
-
-.stick-ver {
-	width: 27px;
-	height: 480px;
-	padding-left: 299px;
-	padding-top: 160px;
-}
-
-.stick-gor {
-	width: 235px;
-	height: 3px;
-	background: #EAEDF2;
-	border-bottom: 1px dotted lightgrey;
-	right: 35px;
-	top: 315px;
-}
-
-.yelp {
-	right: 35px;
-	width: 235px;
-	height: 65px;
-	top: 160px;
-}
-
-.qoqa {
-	right: 35px;
-	width: 235px;
-	height: 65px;
-	top: 240px;
-}
-
-.cefire {
-	right: 35px;
-	width: 235px;
-	height: 55px;
-	top: 335px;
-}
-
-.ecole {
-	right: 35px;
-	width: 235px;
-	height: 55px;
-	top: 405px;
-}
-
-.icons {
-	right: 35px;
-	bottom: 65px;
-	width: 235px;
+	left: 350px;
+	top: 0;
 	height: 160px;
+	width: 182px;
 }
 
-.footer {
-	left: 140px;
-	bottom: 0px;
-	width: 400px;
+.rings {
+	top: 186px;
+	left: 130px;
+	width: 45px;
+	height: 725px;
+}
+
+.text-work {
+	top: 186px;
+	left: 173px;
+	width: 246px;
 	height: 40px;
-	font-size: 10px;
-	color: grey;
 }
 
-i {padding: 7px;}
-/////////////////////////////////////////////////////////////////////////
-
-/////////////////////////////////////////////////////////////Face + photo (left part)
-.photo {
-	position: relative;
+.frontEnd {
+	top: 238px;
+	left: 182px;
+	width: 246px;
+	height: 91px;
+	border: 1px solid #E5E7E6;
+	border-radius: 3px;
 }
 
-#photo {
+.webDev {
+	top: 351px;
+	left: 182px;
+	width: 246px;
+	height: 91px;
+	border: 1px solid #E5E7E6;
+	border-radius: 3px;
+}
+
+.Exc {
+	top: 464px;
+	left: 182px;
+	width: 246px;
+	height: 80px;
+	border: 1px solid #E5E7E6;
+	border-radius: 3px;
+}
+
+.text-education {
+	top: 569px;
+	left: 173px;
+	width: 246px;
+	height: 40px;
+}
+
+.atom {
+	top: 621px;
+	left: 182px;
+	width: 246px;
+	height: 91px;
+	border: 1px solid #E5E7E6;
+	border-radius: 3px;
+}
+
+.soft {
+	top: 734px;
+	left: 182px;
+	width: 246px;
+	height: 91px;
+	border: 1px solid #E5E7E6;
+	border-radius: 3px;
+}
+
+.comp {
+	top: 848px;
+	left: 182px;
+	width: 246px;
+	height: 80px;
+	border: 1px solid #E5E7E6;
+	border-radius: 3px;
+}
+
+.devSkills {
+	top: 186px;
+	left: 455px;
+	width: 335px;
+	height: 150px;
+}
+
+.desSkills {
+	top: 351px;
+	left: 455px;
+	width: 335px;
+	height: 122px;
+}
+
+.test {
+	top: 503px;
+	left: 455px;
+	width: 335px;
+	height: 24px;
+}
+
+.phil {
+	top: 535px;
+	left: 455px;
+	width: 335px;
+	height: 79px;
+}
+
+.cary {
+	top: 625px;
+	left: 455px;
+	width: 335px;
+	height: 66px;
+}
+
+.jason {
+	top: 703px;
+	left: 455px;
+	width: 335px;
+	height: 55px;
+}
+
+.down {
+	top: 800px;
+	left: 455px;
+	width: 335px;
+	height: 115px;
+}
+
+.view {
+	top: 940px;
+	left: 455px;
+	width: 335px;
+	height: 115px;
+}
+/////////////////////////////
+
+///////////////////////////face
+///////////photo 
+
+.photo {position: relative;}
+
+.photo > img {
 	position: absolute;
-	width: 50px;
-	left: 15px;
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	left: 50px;
 	top: 10px;
 }
 
-.face .name {
-	font-size: 13px;
-	margin-left: 83px;
-	margin-top: 27px;
+.photo .name {
+	position: absolute;
+	width: 54px;
+	height: 11px;
+	left: 60px;
+	top: 100px;
+	font-size: 11px;
+	font-family: Calibri;
+	color: #AEB2B3;
+}
+
+.photo .yellow-text {
+	position: absolute;
+	width: 87px;
+	height: 15px;
+	left: 47px;
+	top: 113px;
+	font-size: 9px;
+	color: grey;
+	border-radius: 2px;
+	background-color: #F9F266;
+	text-align: center;
+	vertical-align: middle;
+}
+///////////
+
+//////////buttons
+
+.buttons {position: relative;}
+
+.buttons .about {
+	position: absolute;
+	width: 39px;
+	height: 17px;
+	left: 1px;
+	top: 145px;
+	border: 1px solid #E5E5E5;
+	font-size: 8px;
+	text-align: center;
+	padding-top: 3px;
+	box-sizing: border-box;
+	border-radius: 3px;
+	color: #838788;
 	font-family: Calibri;
 }
 
-.face .name span {
+.por {
+	position: absolute;
+	width: 36px;
+	height: 17px;
+	left: 44px;
+	top: 145px;
+	border: 1px solid #E5E5E5;
 	font-size: 8px;
+	text-align: center;
+	padding-top: 3px;
+	box-sizing: border-box;
+	border-radius: 3px;
+	color: #838788;
+	font-family: Calibri;
 }
 
-.blue,
-.red,
-.green,
-.dark {
-	width: 46.25px;
-	height: 37px;
-	display: inline-block;
-	margin-top: 15px;
-	margin-right: -4px;
-	position: relative;
+.contact {
+	position: absolute;
+	width: 34px;
+	height: 17px;
+	left: 84px;
+	top: 145px;
+	border: 1px solid #E5E5E5;
+	font-size: 8px;
+	text-align: center;
+	padding-top: 3px;
+	box-sizing: border-box;
+	border-radius: 3px;
+	color: #838788;
+	font-family: Calibri;
+}
+
+.blog {
+	position: absolute;
+	width: 25px;
+	height: 17px;
+	left: 122px;
+	top: 145px;
+	border: 1px solid #E5E5E5;
+	font-size: 8px;
+	text-align: center;
+	padding-top: 3px;
+	box-sizing: border-box;
+	border-radius: 3px;
+	color: #838788;
+	font-family: Calibri;
+}
+
+.resume {
+	position: absolute;
+	width: 34px;
+	height: 17px;
+	left: 151px;
+	top: 145px;
+	border: 1px solid #E5E5E5;
+	font-size: 8px;
+	text-align: center;
+	padding-top: 3px;
+	box-sizing: border-box;
+	border-radius: 3px;
 	color: white;
+	font-family: Calibri;
+	background-color: #34454F;
 }
 
-.blue {
-	background: #17C4EC;
-	padding-left: 0;
-}
+///////////
+//////////////////////////////
 
-.red {
-	background: #F95353;
-}
 
-.green {
-	background: #0FCDC1;
-}
+///////////////////////////////////////rings
 
-.dark {
-	background: #334960;
-}
+.forms {position: relative;}
 
-.blue > span,
-.red > span,
-.green > span,
-.dark > span{
-	font-size: 8px;
+.forms .vial {
+	border: 2px solid #DFE1E0;
 	position: absolute;
-	top: 19px;
+	border-radius: 50%;
+	width: 40px;
+	height: 30px;
+	text-align: center;
+	padding-top: 10px;
 }
 
-.eye,
-.flag,
-.car,
-.sigarete {
-	height: 10px;
-	width: 10px;
-	top: 8px;
-	left: 18px;
+.stick-1 {
 	position: absolute;
+	width: 2px;
+	height: 42px;
+	background: #DFE0E2;
+	left: 48%;
+	top: 43px;
 }
 
-.blue > span {
-	left: 12px;
-	font-size: 6px;
+.forms .d2012 {
+	border: 2px solid #29333D;
 	position: absolute;
-	top: 19px;
+	border-radius: 50%;
+	width: 36px;
+	height: 23px;
+	text-align: center;
+	padding-top: 13px;
+	top: 84px;
+	left: 2px;
+	background-color: #334257;
+	font-size: 9px;
+	color: white;
+	font-family: Calibri;
+	font-weight: bold;
 }
 
-.red > span {
-	left: 5px;
-	font-size: 6px;
+.forms .stick-2 {
 	position: absolute;
-	top: 19px;
+	width: 2px;
+	height: 79px;
+	background: #DFE0E2;
+	left: 48%;
+	top: 126px;
 }
 
-.green > span {
-	font-size: 6px;
+.forms .d2010 {
+	border: 2px solid #61B881;
 	position: absolute;
-	top: 19px;
-	left: 10px;
+	border-radius: 50%;
+	width: 28px;
+	height: 20px;
+	text-align: center;
+	padding-top: 8px;
+	top: 204px;
+	background-color: #5ACE7B;
+	font-size: 9px;
+	color: white;
+	font-family: Calibri;
+	font-weight: bold;
+	left: 6px;
 }
 
-.dark > span {
-	left: 17px;
-	font-size: 6px;
+.forms .stick-3 {
 	position: absolute;
-	top: 19px;
+	width: 2px;
+	height: 65px;
+	background: #DFE0E2;
+	left: 48%;
+	top: 238px;
 }
-////////////////////////////////////////////////////////
 
-//////////////////////////////////////////////direct
-////////////////headeer +textt
-.direct .header {
+.forms .d2006 {
+	border: 2px solid #61B881;
+	position: absolute;
+	border-radius: 50%;
+	width: 28px;
+	height: 20px;
+	text-align: center;
+	padding-top: 8px;
+	top: 304px;
+	background-color: #5ACE7B;
+	font-size: 9px;
+	color: white;
+	font-family: Calibri;
+	font-weight: bold;
+	left: 6px;
+}
+
+.forms .d2006 > span {
+	z-index: 10;
 	position: relative;
 }
 
-.header > div {
+.forms .stick-4 {
 	position: absolute;
-	font-size: 15px;
+	width: 2px;
+	height: 48px;
+	background: #DFE0E2;
+	left: 48%;
+	top: 338px;
+}
+
+.forms .hat {
+	border: 2px solid #DFE1E0;
+	position: absolute;
+	border-radius: 50%;
+	width: 40px;
+	height: 27px;
+	text-align: center;
+	padding-top: 13px;
+	top: 385px;
+}
+
+.forms .stick-5 {
+	position: absolute;
+	width: 2px;
+	height: 39px;
+	background: #DFE0E2;
+	left: 48%;
+	top: 428px;
+}
+
+.forms .d2002 {
+	border: 2px solid #61B881;
+	position: absolute;
+	border-radius: 50%;
+	width: 28px;
+	height: 20px;
+	text-align: center;
+	padding-top: 8px;
+	top: 470px;
+	background-color: #5ACE7B;
+	font-size: 9px;
+	color: white;
+	font-family: Calibri;
+	font-weight: bold;
+	left: 6px;
+}
+
+.forms .stick-6 {
+	position: absolute;
+	width: 2px;
+	height: 78px;
+	background: #DFE0E2;
+	left: 48%;
+	top: 505px;
+}
+
+.forms .d2010-2 {
+	border: 2px solid #61B881;
+	position: absolute;
+	border-radius: 50%;
+	width: 28px;
+	height: 20px;
+	text-align: center;
+	padding-top: 8px;
+	top: 585px;
+	background-color: #5ACE7B;
+	font-size: 9px;
+	color: white;
+	font-family: Calibri;
+	font-weight: bold;
+	left: 6px;
+}
+.forms .d2010-2 > span {
+	z-index: 10;
+	position: relative;
+}
+
+.forms .stick-7 {
+	position: absolute;
+	width: 2px;
+	height: 68px;
+	background: #DFE0E2;
+	left: 48%;
+	top: 620px;
+}
+
+.forms .d2006-2 {
+	border: 2px solid #61B881;
+	position: absolute;
+	border-radius: 50%;
+	width: 28px;
+	height: 20px;
+	text-align: center;
+	padding-top: 8px;
+	top: 690px;
+	background-color: #5ACE7B;
+	font-size: 9px;
+	color: white;
+	font-family: Calibri;
+	font-weight: bold;
+	left: 6px;
+}
+.forms .d2006-2 > span {
+	z-index: 10;
+	position: relative;
+}
+
+////////////////////////////////////////
+
+
+////////////////////////////////////TEXT-WORK 
+
+.text {position: relative;}
+
+.text > span {
+	position: absolute;
 	left: 10px;
+	top: 12px;
+	font-family: Calibri;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+//////////////////////////////////////
+
+/////////////////////////////////////frontEnd + WEBDEV
+
+.help1 {position: relative;}
+
+.head {
+	position: absolute;
+	font-size: 10px;
+	font-family: Calibri;
+	left: 14px;
+	top: 13px;
+	color: #888C8D;
+}
+
+.under-head {
+	position: absolute;
+	font-size: 8px;
+	font-family: Calibri;
+	left: 14px;
+	top: 26px;
+	color: lightgrey;
+}
+
+.general-text {
+	position: absolute;
+	font-size: 8px;
+	font-family: Calibri;
+	left: 14px;
+	top: 45px;
+	color: #888C8D;
+	width: 210px;
+	text-align: justify;
+}
+
+////////////////////////////////////
+
+////////////////////////////////////devSkills
+//////////////////////////////////*/img /+ header + line*/
+
+.help2 {position: relative;}
+
+.help2 > img {
+	position: absolute;
+	left: 0;
+	top: 10px;
+	border-radius: 50%;
+	border: 2px solid #DBDBDD;
+	padding: 4px;
+}
+
+.help2 > span {
+	position: absolute;
+	left: 30px;
 	top: 15px;
 	font-family: Calibri;
-}
-
-.header div > .text {
-	left: 15px;
-	top: 22px;
-	font-size: 8px;
-	font-weight: normal;		 
-	text-align: justify;
-	padding-top: 5px;
-	line-height: 10px;
-	color: grey;
-}
-
-.text > span {color: #67B9CF;}
-
-//////////sites
-
-.sites {position: relative;}
-
-.sites > div {
-	position: absolute;
-	left: 185px;
-	top: 43px;
-	font-size: 10px;
-	font-family: Calibri;
-}
-
-.site-red {
-	line-height: 20px;
-	color: #E19C9F;
-	font-size: 11px;
-}
-
-///////////////////////////////////////////////
-
-///////////////////////social chat and so on
-
-.social {position: relative;}
-
-.social-bird > img {
-	margin-left: 5px;
-	top: 89px;
-	width: 15px;
-	position: absolute;
-}
-
-.social-ball > img {
-	top: 87px;
-	padding-left: 35px;
-	width: 17px;
-	position: absolute;
-}
-
-.social-b > img {
-	top: 88px;
-	padding-left: 65px;
-	width: 15px;
-	position: absolute;
-}
-
-.social-camera > img {
-	top: 87px;
-	padding-left: 95px;
-	width: 15px;
-	position: absolute;
-}
-
-.social-drop > img {
-	top: 87px;
-	padding-left: 125px;
-	width: 15px;
-	position: absolute;
-}
-
-.social-n > img {
-	top: 87px;
-	padding-left: 155px;
-	width: 15px;
-	position: absolute;
-}
-////////////////////////////////////////////////////////////
-
-///////////////////////secret part + cortix part + (ademe part without list)
-////////////////////////top
-.top-secret-cortix {position: relative;}
-
-#bold-text {
-	position: absolute;
-	left: 10px;
-	top: 10px;
-	font-weight: bold;
-	font-size: 11px;
-	font-family: Calibri;
-}
-
-#grey-text {
-	position: absolute;
-	left: 75px;
-	top: 12px;
-	font-size: 8px;
-	color: lightgrey;
-	font-family: Calibri;
-}
-
-#blue-text {
-	position: absolute;
-	left: 10px;
-	top: 25px;
 	font-size: 9px;
-	color: #6ECABF;
-	font-family: Calibri;
+	color: #7F8384;
 }
-////////////////////////////////
-////////////////////list
 
-.list {	position: relative;}
-
-.list-secret-cortix {
-	list-style: none;
-	font-size: 7px;
+.help2 > div {
 	position: absolute;
-	left: -16px;
-	top: 35px;
-	line-height: 12px;
-	font-family: Calibri;
-	color: grey;
+	width: 180px;
+	height: 2px;
+	left: 120px;
+	top: 21px;
+	background-color: #E7EBEC;
 }
+////////////////////////
 
-.list-secret-cortix li img {
-	width: 10px;
-	vertical-align: bottom;
-	padding-right: 3px;
-	margin-left: -10px;
-}
-///////////////////////
-///////////////bootom secret
+//////////////////////bars
 
-.bottom-secret-cortix {position: relative;}
+.bars {	position: relative;} 
 
-.bottom-left-s-c {
+.bar1 {
 	position: absolute;
-	left: 15px;
-	top: 95px;
+	width: 292px;
+	height: 18px;
+	top: 45px;
+	background-color: #BEEBCB;
+	border-radius: 2px;
 }
 
-.bottom-left-s-c img{
-	width: 5px;
-}
-
-.bottom-left-s-c span {
-	font-size: 7px;
+.inside1 {
+	width: 100%;
+	height: 11px;
+	background-color: #5BCE80;
+	font-size: 9px;
+	font-weight: bold;
+	font-family: Calibri;
+	color: white;
+	padding: 3px;
+	border-radius: 2px;
 	padding-left: 5px;
-	vertical-align: middle;
-	color: lightgrey; 
-	font-family: Calibri;
 }
 
-.bottom-reload {
+.full {
 	position: absolute;
-	left: 45px;
-	top: 95px;
-	margin-left: 20px;
+	left: 310px;
+	top: 47px;
+	font-size: 9px;
+	font-weight: bold;
+	font-family: Calibri;
+	color: #5BCE80;
 }
 
-.bottom-reload img{
-	width: 13px;
-	vertical-align: middle;
+.bar2 {
+	position: absolute;
+	width: 300px;
+	height: 18px;
+	top: 73px;
+	background-color: #BEEBCB;
+	border-radius: 2px;
 }
 
-.bottom-reload span {
-	font-size: 7px;
+.inside2 {
+	width: 47%;
+	height: 11px;
+	background-color: #5BCE80;
+	font-size: 9px;
+	font-weight: bold;
+	font-family: Calibri;
+	color: white;
+	padding: 3px;
+	border-radius: 2px;
 	padding-left: 5px;
-	padding-right: 40px;
-	vertical-align: middle;
-	color: lightgrey; 
-	font-family: Calibri;
 }
 
-.button input{
+.fourty7 {
 	position: absolute;
-	border: none;
-	background-color: #1AC3EA;
-	left: 160px;
-	top: 100px;
-	font-size: 7px;
-	padding: 3px 12px;
-	border-radius: 1px;
-	color: white;
-	font-family: Calibri;
-}
-///////////////////////////////////
-
-///////////////icons + progressbars
-///// tv
-.tv {position: relative;}
-
-.tv > img {
-	position: absolute;
-	width: 27px;
-	left: 10.5px;
-	top: 10px;
-}
-
-.tv > span {
-	position: absolute;
-	left: 11px;
-	top: 42px;
-	font-size: 5px;
-	color: grey;
-}
-
-//////////
-
-/////// плёнка
-
-.pl {position: relative;}
-
-.pl > img {
-	position: absolute;
-	width: 27px;
-	left: 48px;
-	top: 10px;
-}
-
-.pl > span {
-	position: absolute;
-	left: 52px;
-	top: 42px;
-	font-size: 5px;
-	color: grey;
-}
-
-//////
-
-/////// headers
-
-.headers {position: relative;}
-
-.headers > img {
-	position: absolute;
-	width: 27px;
-	left: 85.5px;
-	top: 10px;
-}
-
-.headers > span {
-	position: absolute;
-	left: 87px;
-	top: 42px;
-	font-size: 5px;
-	color: grey;
-}
-
-//////
-
-//////stone
-
-.stone {position: relative;}
-
-.stone > img {
-	position: absolute;
-	width: 27px;
-	left: 123px;
-	top: 10px;
-}
-
-.stone > span {
-	position: absolute;
-	left: 124px;
-	top: 42px;
-	font-size: 5px;
-	color: grey;
-}
-
-////
-
-/////things
-
-.things {position: relative;}
-
-.things > img {
-	position: absolute;
-	width: 27px;
-	left: 160.5px;
-	top: 10px;
-}
-
-.things > span {
-	position: absolute;
-	left: 161px;
-	top: 42px;
-	font-size: 5px;
-	color: grey;
-}
-
-////
-
-////plane
-
-.plane {position: relative;}
-
-.plane > img {
-	position: absolute;
-	width: 27px;
-	left: 200px;
-	top: 10px;
-}
-
-.plane > span {
-	position: absolute;
-	left: 203px;
-	top: 42px;
-	font-size: 5px;
-	color: grey;
-}
-
-////////
-
-/////////// bars
-/////////prestashop
-.bars-1 {position: relative;}
-
-.bars-1 .bar-presta,
-.bars-1 .prestashop,
-.procent-presta,
-.bars .bar-word,
-.bars .wordpress,
-.procent-word {
-	position: absolute;
-	left: 10px;
-}
-
-.bars-1 .bar-presta {
-	top: 138px;
-	width: 100px;
-	height: 6px;
-	background-color: lightgrey;
-	border-radius: 10px;
-}
-
-.bars-1 .prestashop {
-	top: 122px;
-	font-size: 7px;
-	color: grey;
-}
-
-.bar-presta div {
-	background-color: #11CCC1;
-	width: 85%;
-	height: 100%;
-	border-radius: 10px;
-}
-
-.procent-presta {
-	width: 15px;
-	height: 8px;
-	background-color: #33475F;
-	border-radius: 2px;
-	left: 84px;
-	top: 128px;
-	font-size: 6px;
-	color: white;
-	text-align: center;
-}
-
-///////////
-
-//////word
-
-.bars-2 {position: relative;}
-
-.bars-2 .bar-word,
-.bars-2 .wordpress,
-.procent-word {
-	position: absolute;
-	left: 10px;
-}
-
-.bars-2 .bar-word {
-	top: 117px;
-	width: 100px;
-	height: 6px;
-	background-color: lightgrey;
-	border-radius: 10px;
-}
-
-.bars-2 .wordpress {
-	top: 101px;
-	font-size: 7px;
-	color: grey;
-}
-
-.bar-word div {
-	background-color: #11CCC1;
-	width: 95%;
-	height: 100%;
-	border-radius: 10px;
-}
-
-.procent-word {
-	width: 15px;
-	height: 8px;
-	background-color: #33475F;
-	border-radius: 2px;
-	left: 95px;
-	top: 107px;
-	font-size: 6px;
-	color: white;
-	text-align: center;
-}
-
-//////
-
-//////////illustrator
-
-.bars-3 {position: relative;}
-
-.bars-3 .bar-ill,
-.bars-3 .illustrator,
-.procent-ill {
-	position: absolute;
-	left: 10px;
-}
-
-.bars-3 .bar-ill {
-	top: 96px;
-	width: 100px;
-	height: 6px;
-	background-color: lightgrey;
-	border-radius: 10px;
-}
-
-.bars-3 .illustrator {
-	top: 80px;
-	font-size: 7px;
-	color: grey;
-}
-
-.bar-ill div {
-	background-color: #11CCC1;
-	width: 55%;
-	height: 100%;
-	border-radius: 10px;
-}
-
-.procent-ill {
-	width: 15px;
-	height: 8px;
-	background-color: #33475F;
-	border-radius: 2px;
-	left: 55px;
-	top: 86px;
-	font-size: 6px;
-	color: white;
-	text-align: center;
-}
-
-///////
-
-//////////photoshop
-
-.bars-4 {position: relative;}
-
-.bars-4 .bar-photo,
-.bars-4 .photoshop,
-.procent-photo {
-	position: absolute;
-	left: 10px;
-}
-
-.bars-4 .bar-photo {
+	left: 310px;
 	top: 75px;
-	width: 100px;
-	height: 6px;
-	background-color: lightgrey;
-	border-radius: 10px;
+	font-size: 9px;
+	font-weight: bold;
+	font-family: Calibri;
+	color: #5BCE80;
 }
 
-.bars-4 .photoshop {
-	top: 59px;
-	font-size: 7px;
-	color: grey;
-}
-
-.bar-photo div {
-	background-color: #11CCC1;
-	width: 80%;
-	height: 100%;
-	border-radius: 10px;
-}
-
-.procent-photo {
-	width: 15px;
-	height: 8px;
-	background-color: #33475F;
-	border-radius: 2px;
-	left: 80px;
-	top: 65px;
-	font-size: 6px;
-	color: white;
-	text-align: center;
-}
-
-////////
-
-/////////referencenment
-
-.bars-5 {position: relative;}
-
-.bars-5 .bar-ref,
-.bars-5 .ref,
-.procent-ref {
+.bar3 {
 	position: absolute;
-	right: 10px;
-}
-
-.bars-5 .bar-ref {
-	top: 75px;
-	width: 100px;
-	height: 6px;
-	background-color: lightgrey;
-	border-radius: 10px;
-}
-
-.bars-5 .ref {
-	top: 59px;
-	font-size: 7px;
-	color: grey;
-	left: 125px;
-}
-
-.bar-ref div {
-	background-color: #17C4EE;
-	width: 60%;
-	height: 100%;
-	border-radius: 10px;
-}
-
-.procent-ref {
-	width: 15px;
-	height: 8px;
-	background-color: #33475F;
+	width: 298px;
+	height: 18px;
+	top: 102px;
+	background-color: #BEEBCB;
 	border-radius: 2px;
-	right: 45px;
-	top: 65px;
-	font-size: 6px;
-	color: white;
-	text-align: center;
 }
 
-/////////
+.inside3 {
+	width: 62%;
+	height: 11px;
+	background-color: #5BCE80;
+	font-size: 9px;
+	font-weight: bold;
+	font-family: Calibri;
+	color: white;
+	padding: 3px;
+	border-radius: 2px;
+	padding-left: 5px;
+}
 
-///////////reseaux
-
-.bars-6 {position: relative;}
-
-.bars-6 .bar-res,
-.bars-6 .res,
-.procent-res {
+.sixty2 {
 	position: absolute;
-	right: 10px;
+	left: 310px;
+	top: 104px;
+	font-size: 9px;
+	font-weight: bold;
+	font-family: Calibri;
+	color: #5BCE80;
 }
 
-.bars-6 .bar-res {
-	top: 96px;
-	width: 100px;
-	height: 6px;
-	background-color: lightgrey;
-	border-radius: 10px;
-}
-
-.bars-6 .res {
-	top: 80px;
-	font-size: 7px;
-	color: grey;
-	left: 125px;
-}
-
-.bar-res div {
-	background-color: #17C4EE;
-	width: 55%;
-	height: 100%;
-	border-radius: 10px;
-}
-
-.procent-res {
-	width: 15px;
-	height: 8px;
-	background-color: #33475F;
-	border-radius: 2px;
-	right: 50px;
-	top: 86px;
-	font-size: 6px;
-	color: white;
-	text-align: center;
-}
-
-///////////
-
-/////////ui design
-
-.bars-7 {position: relative;}
-
-.bars-7 .bar-ui,
-.bars-7 .ui,
-.procent-ui {
+.bar4 {
 	position: absolute;
-	right: 10px;
-}
-
-.bars-7 .bar-ui {
-	top: 117px;
-	width: 100px;
-	height: 6px;
-	background-color: lightgrey;
-	border-radius: 10px;
-}
-
-.bars-7 .ui {
-	top: 101px;
-	font-size: 7px;
-	color: grey;
-	left: 125px;
-}
-
-.bar-ui div {
-	background-color: #17C4EE;
-	width: 55%;
-	height: 100%;
-	border-radius: 10px;
-}
-
-.procent-ui {
-	width: 15px;
-	height: 8px;
-	background-color: #33475F;
+	width: 290px;
+	height: 18px;
+	top: 131px;
+	background-color: #BEEBCB;
 	border-radius: 2px;
-	right: 50px;
-	top: 107px;
-	font-size: 6px;
-	color: white;
-	text-align: center;
 }
 
-//////////
+.inside4 {
+	width: 100%;
+	height: 11px;
+	background-color: #5BCE80;
+	font-size: 9px;
+	font-weight: bold;
+	font-family: Calibri;
+	color: white;
+	padding: 3px;
+	border-radius: 2px;
+	padding-left: 5px;
+}
 
-////////user experience
-
-.bars-8 {position: relative;}
-
-.bars-8 .bar-user,
-.bars-8 .user,
-.procent-user {
+.full2 {
 	position: absolute;
-	right: 10px;
+	left: 310px;
+	top: 133px;
+	font-size: 9px;
+	font-weight: bold;
+	font-family: Calibri;
+	color: #5BCE80;
 }
 
-.bars-8 .bar-user {
-	top: 138px;
-	width: 100px;
-	height: 6px;
-	background-color: lightgrey;
-	border-radius: 10px;
+/////////////////////////
+////////////////////////////////////////////
+
+
+/////////////////////////////////////////design skills
+////////////////////////////////*img header + line*/
+.help3 {position: relative;}
+
+.help3 > img {
+	position: absolute;
+	left: 0;
+	top: 10px;
+	border-radius: 50%;
+	border: 2px solid #DBDBDD;
+	padding: 4px;
 }
 
-.bars-8 .user {
-	top: 122px;
-	font-size: 7px;
-	color: grey;
-	left: 125px;
+.help3 > span {
+	position: absolute;
+	left: 30px;
+	top: 15px;
+	font-family: Calibri;
+	font-size: 9px;
+	color: #7C807F;
 }
 
-.bar-user div {
-	background-color: #17C4EE;
-	width: 60%;
-	height: 100%;
-	border-radius: 10px;
+.help3 > div {
+	position: absolute;
+	width: 207px;
+	height: 2px;
+	left: 91px;
+	top: 21px;
+	background-color: #E7EBEC;
 }
+//////////////////
 
-.procent-user {
-	width: 15px;
-	height: 8px;
-	background-color: #33475F;
+///////////////////bars three things
+
+.bars-three {position: relative;}
+
+.bars-three .cross1 {
+	position: absolute;
+	width: 298px;
+	height: 18px;
+	top: 44px;
+	background-color: #BEEBCB;
 	border-radius: 2px;
-	right: 45px;
-	top: 128px;
-	font-size: 6px;
-	color: white;
-	text-align: center;
 }
 
-//////
+.bars-three .internal1 {
+	width: 91%;
+	height: 11px;
+	background-color: #5BCE80;
+	font-size: 9px;
+	font-weight: bold;
+	font-family: Calibri;
+	color: white;
+	padding: 3px;
+	border-radius: 2px;
+	padding-left: 5px;
+}
+
+.bars-three .ninty1 {
+	position: absolute;
+	left: 310px;
+	top: 47px;
+	font-size: 9px;
+	font-weight: bold;
+	font-family: Calibri;
+	color: #5BCE80;
+}
+
+.bars-three .cross2 {
+	position: absolute;
+	width: 298px;
+	height: 18px;
+	top: 73px;
+	background-color: #BEEBCB;
+	border-radius: 2px;
+}
+
+.bars-three .internal2 {
+	width: 53%;
+	height: 11px;
+	background-color: #5BCE80;
+	font-size: 9px;
+	font-weight: bold;
+	font-family: Calibri;
+	color: white;
+	padding: 3px;
+	border-radius: 2px;
+	padding-left: 5px;
+}
+
+.bars-three .fiftyy7 {
+	position: absolute;
+	left: 310px;
+	top: 77px;
+	font-size: 9px;
+	font-weight: bold;
+	font-family: Calibri;
+	color: #5BCE80;
+}
+
+.bars-three .cross3 {
+	position: absolute;
+	width: 298px;
+	height: 18px;
+	top: 102px;
+	background-color: #BEEBCB;
+	border-radius: 2px;
+}
+
+.bars-three .internal3 {
+	width: 31%;
+	height: 11px;
+	background-color: #5BCE80;
+	font-size: 9px;
+	font-weight: bold;
+	font-family: Calibri;
+	color: white;
+	padding: 3px;
+	border-radius: 2px;
+	padding-left: 5px;
+}
+
+.bars-three .thirty1 {
+	position: absolute;
+	left: 310px;
+	top: 106px;
+	font-size: 9px;
+	font-weight: bold;
+	font-family: Calibri;
+	color: #5BCE80;
+}
+
+///////////////////////////
+//////////////////////////////////////////
+
+//////////////////////////////////testimonials
+
+.help4 {position: relative;}
+
+.help4 > img {
+	position: absolute;
+	left: 0;
+	border-radius: 50%;
+	border: 2px solid #DBDBDD;
+	padding: 4px;
+}
+
+.help4 > span {
+	position: absolute;
+	left: 30px;
+	font-family: Calibri;
+	font-size: 9px;
+	top: 5px;
+	color: #7C807F;
+}
+
+.help4 > div {
+	position: absolute;
+	width: 207px;
+	height: 2px;
+	left: 91px;
+	top:11px;
+	background-color: #E7EBEC;
+}
+
+///////////////////////////////////////
+
+
+/////////////////////////////////creating boys
+
+.sup {position: relative;}
+
+.grey-phil {
+	position: absolute;
+	left: 0;
+	top: 9px;
+	background-color: #EEF2F5;
+	width: 298px;
+	height: 70px;
+	border-radius: 3px;
+}
+
+.phil-name {
+	position: relative;
+	top: 10px;
+	font-family: Calibri;
+	font-size: 11px;
+	padding-left: 15px;
+	color: #7C8187;
+}
+
+.dop-text {
+	position: relative;
+	top: 10px;
+	font-family: Calibri;
+	font-size: 10px;
+	padding-left: 5px;
+	color: #C3C7CA;
+}
+
+.gen-text {
+	position: relative;
+	top: 8px;
+	padding-top: 5px;
+	font-family: Calibri;
+	font-size: 8px;
+	color: #7C8187;
+	padding-left: 15px;
+}
+
+.img-phil {position: relative;}
+
+.img-phil > img {
+	position: absolute;
+	left: 260px;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	border: 5px solid white;
+	top: -2px;
+}
+///////////////////////////////
+
+///////////////////////////////download 
+
+.download {position: relative;}
+
+.download > img {
+	position: absolute;
+	border: 2px solid #DDE1E2;
+	border-radius: 50%;
+	width: 12px;
+	height: 12px;
+	padding: 4px;
+}
+
+.download #header {
+	position: absolute;
+	left: 30px;
+	font-size: 9px;
+	font-family: Calibri;
+	top: 5px;
+	color: #929395;
+}
+
+.block {
+	position: absolute;
+	left: 112px;
+	top: 11px;
+	width: 188px;
+	height: 2px;
+	background-color:  #929395;
+}
+
+#sp-text {
+	position: absolute;
+	top: 33px;
+	font-family: Calibri;
+	font-size: 9px;
+	color: #6F7072;
+	width: 290px;
+}
+
+#but {
+	position: absolute;
+	top: 81px;
+	border: 2px solid #ECF0F1;
+	font-family: Calibri;
+	font-size: 10px;
+	width: 99px;
+	height: 20px;
+	border-radius: 2px;
+	color: #808080;
+	text-align: center;
+	padding-top: 5px;
+}
+
+//////////////////////////////////
