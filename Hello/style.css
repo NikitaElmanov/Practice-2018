@@ -3,8 +3,14 @@ body {
 	margin: 0;
 }
 //////////////////////////// basic settings
+.elsel {}
+
 .main {
 	position: relative;
+	width: 860px;
+	height: 1061px;
+	border: 2px solid grey;
+	border-radius: 4px;
 }
 
 .main > div {position: absolute;}
